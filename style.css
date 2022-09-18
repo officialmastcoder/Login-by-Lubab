@@ -1,0 +1,111 @@
+body{
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+  background-size: auto;
+  background-size: 100%;
+}
+.container{
+    position: relative;
+    max-width: 30%;
+    border: 1px solid black;
+    box-shadow: 10px 10px 8px 5px #caec0e;
+    border-radius: 7px;
+    width: auto;
+    margin: auto;
+    height: 80vh;
+}
+.welcome{
+    position: relative;
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.prince{
+    font-size: 24px;
+    color: blue;
+}
+.span{
+    color: red;
+}
+.logo{
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    width: 180px;
+    text-align: center;
+    margin-top: 20px;
+}
+hr{
+    border: 1px solid #888888;
+    background-color:  #888888;
+}
+.input-box{
+    position: relative; 
+    display: block;
+   
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    
+
+}
+.form-control{
+    position: relative;
+    display: inline-block;
+    
+    max-width: 80%;
+    width: 100%;
+    
+    margin: auto;
+
+}
+input[type=text],[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .btn {
+    width: 100%;
+    background-color: #d30fe5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 1;
+     transition: 0.3s;
+  }
+  
+  .btn:hover  {
+    background-color: #45a049;
+    text-transform: green;
+    opacity: 1;
+  }
+  
+  div {
+    
+    padding: 20px;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* background-color: rgb(185, 168, 168); */
+    color: white;
+    height: 50px;
+    text-align: center;
+    
+  }
+  a{
+    text-decoration: none;
+    color: rgb(3, 249, 249);
+  }
